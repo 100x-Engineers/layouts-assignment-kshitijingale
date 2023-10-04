@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
+  <body class="bg-black">
+    <div
+      class="flex flex-col gap-3 items-start shrink-0 px-[15px] pb-5 h-screen font-px-regular"
+    >
+      <div class="flex py-3 items-center gap-5 self-stretch text-neutral-50">
+        <a href="./index.html">
+          <img
+            src="../../public/images/create-account-1-signup-x.svg"
+            alt="go-back-btn"
+          />
+        </a>
+        <span class="text-[15px] font-bold">Step 1 of 4</span>
+      </div>
+      <div class="flex flex-col items-start gap-5 self-stretch text-neutral-50">
+        <h2 class="text-2xl font-bold">Create your account</h2>
+        <form
+          class="flex flex-col items-start gap-8 self-stretch text-neutral-50"
+        >
+          <div class="relative flex flex-col self-stretch">
+            <input
+              class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent text-neutral-500 border rounded py-4 px-3 outline-none focus:border-twitter-blue focus:text-neutral-50"
+              placeholder="Name"
+              type="text"
+            />
+            <label
+              class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black w-[51.018px] text-center"
+              >Name</label
+            >
+          </div>
+          <div class="relative flex flex-col self-stretch">
+            <input
+              class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent text-neutral-500 border rounded py-4 px-3 outline-none focus:border-twitter-blue focus:text-neutral-50"
+              placeholder="Email"
+              type="email"
+            />
+            <label
+              class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black w-[51.018px] text-center"
+              >Email</label
+            >
+          </div>
+          <div class="flex flex-col self-stretch gap-2 items-start">
+            <h3 class="text-[15px] font-bold leading-normal">Date of birth</h3>
+            <p class="text-sm font-normal text-secondary leading-normal">
+              This will not be shown publicly. Confirm your own age, even if
+              this account is for a business, a pet, or something else.
+            </p>
+          </div>
+          <div class="grid grid-cols-4 self-stretch gap-3">
+            <div class="relative flex flex-col self-stretch col-span-2">
+              <input
+                class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent text-neutral-500 border rounded py-4 px-3 outline-none focus:border-twitter-blue focus:text-neutral-50"
+                type="email"
+              />
+              <label
+                class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black text-center"
+                >Month</label
+              >
+              <img
+                class="w-6 h-6 absolute right-3 bottom-4"
+                src="../../public/images/create-account-1-signup-chevron-down.svg"
+                alt="dropdown-icon"
+              />
+            </div>
+            <div class="relative flex flex-col self-stretch">
+              <input
+                class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent text-neutral-500 border rounded py-4 px-3 outline-none focus:border-twitter-blue focus:text-neutral-50"
+                type="email"
+              />
+              <label
+                class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black text-center"
+                >Day</label
+              >
+              <img
+                class="w-6 h-6 absolute right-3 bottom-4"
+                src="../../public/images/create-account-1-signup-chevron-down.svg"
+                alt="dropdown-icon"
+              />
+            </div>
+            <div class="relative flex flex-col self-stretch">
+              <input
+                class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent text-neutral-500 border rounded py-4 px-3 outline-none focus:border-twitter-blue focus:text-neutral-50"
+                type="email"
+              />
+              <label
+                class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black text-center"
+                >Year</label
+              >
+              <img
+                class="w-6 h-6 absolute right-3 bottom-4"
+                src="../../public/images/create-account-1-signup-chevron-down.svg"
+                alt="dropdown-icon"
+              />
+            </div>
+          </div>
+        </form>
+        <a
+          href="./create-account-step-2.html"
+          class="bg-neutral-500 flex justify-center py-2 px-6 rounded-full gap-[10px] self-stretch items-center shadow-md font-bold text-black hover:bg-neutral-200 disabled:bg-neutral-500 absolute bottom-5 right-5 left-5"
+        >
+          Create account
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
