@@ -25,7 +25,9 @@ module.exports = {
         "twtr-blue-hover": "#1871CA",
         "twtr-blue-disabled": "#1E5D87",
         "twitter-white-100": "#fff",
-        "secondary": "rgba(255, 255, 255, 0.60)"
+        "secondary": "rgba(255, 255, 255, 0.60)",
+        "stroke": "rgba(29, 155, 240, 0.24)",
+        "symbol-bg": "rgba(0, 0, 0, 0.60)"
       },
       spacing: {},
       fontFamily: {
