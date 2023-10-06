@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
+  <body class="bg-black font-px-regular">
+    <!-- Top navigation bar -->
+    <div class="flex py-3 px-4 justify-between items-center">
+      <a href="../home-feed/index.html">
+        <img
+          src="../../public/images/create-account-1-signup-x.svg"
+          alt="close button icon"
+        />
+      </a>
+      <button
+        class="text-neutral-50 font-bold text-base leading-normal py-2 px-6 inline-flex justify-center items-center gap-[10px] rounded-full bg-twitter-blue hover:bg-twtr-blue-hover disabled:bg-twtr-blue-disabled disabled:text-neutral-400"
+      >
+        <div class="text-[14px]">Post</div>
+      </button>
+    </div>
+    <!-- Tweet input area -->
+    <div class="flex py-3 px-4 justify-center items-center gap-3">
+      <img
+        class="self-start"
+        src="../../public/images/copy-link-user-avatar.png"
+        alt="user-avatar"
+      />
+      <textarea
+        class="bg-transparent placeholder:text-neutral-600 text-neutral-50 outline-none caret-twitter-blue font-normal grow resize-none h-80"
+        type="text"
+        placeholder="What's happening?!"
+      ></textarea>
+    </div>
+    <!-- letter counter -->
+    <div
+      class="flex py-3 px-4 justify-start items-center absolute bottom-0 left-0 right-0 border border-t-neutral-800"
+    >
+      <h2 class="text-sm text-neutral-500 font-normal leading-normal">
+        32/280
+      </h2>
+    </div>
+  </body>
+</html>

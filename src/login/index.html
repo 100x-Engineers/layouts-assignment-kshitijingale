@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
+  <body class="bg-black font-px-regular">
+    <div id="container" class="grid h-screen">
+      <!-- Top 100x logo section -->
+      <div class="flex justify-center py-3 px-4 items-center h-fit">
+        <img
+          class="w-[40.962px] h-[18.026px]"
+          src="../../public/images/login-100.svg"
+          alt="100x-logo"
+        />
+        <img
+          class="w-[12.27px] h-[13.091px]"
+          src="../../public/images/login-group-27162.svg"
+          alt="100x-logo"
+        />
+      </div>
+      <!-- Create section -->
+      <div
+        id="login-container"
+        class="text-neutral-50 flex flex-col px-[28px] items-start gap-[40px] justify-self-center"
+      >
+        <div class="flex flex-col items-start gap-3 self-stretch">
+          <h1 class="text-[31px] font-extrabold leading-normal">
+            Happening now
+          </h1>
+          <h3 class="text-[16px] font-medium leading-normal">Join today.</h3>
+        </div>
+        <a
+          href="./create-account-step-1.html"
+          class="bg-neutral-50 flex justify-center py-2 px-6 rounded-full gap-[10px] self-stretch items-center shadow-md font-bold text-black hover:bg-neutral-200 disabled:bg-neutral-500"
+        >
+          Create account
+        </a>
+        <div class="flex justify-center items-center gap-[4px] self-stretch">
+          <div id="left-line" class="bg-[#404040] w-[155.5px] h-[1px]"></div>
+          <span class="font-normal leading-normal text-center">or</span>
+          <div id="left-line" class="bg-[#404040] w-[155.5px] h-[1px]"></div>
+        </div>
+        <div class="flex flex-col items-start gap-[20px] self-stretch">
+          <p class="text-[15px] font-medium leading-normal">
+            Already have an account?
+          </p>
+          <a
+            href="./create-account-step-1.html"
+            class="text-twitter-blue font-bold leading-normal text-center self-stretch border rounded-full border-stroke py-[8px] px-[24px]"
+          >
+            Sign up
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
+  <body class="bg-black">
+    <div
+      class="flex flex-col gap-3 items-start shrink-0 px-[15px] pb-5 h-screen font-px-regular"
+    >
+      <!-- Navigation bar -->
+      <div class="flex py-3 items-center gap-5 self-stretch text-neutral-50">
+        <a href="./create-account-step-1.html">
+          <img
+            src="../../public/images/create-account-1-signup-x.svg"
+            alt="go-back-btn"
+          />
+        </a>
+        <span class="text-[15px] font-bold">Step 2 of 4</span>
+      </div>
+      <!-- Form inputs -->
+      <div class="flex flex-col items-start gap-5 self-stretch text-neutral-50">
+        <h2 class="text-2xl font-bold">Create your account</h2>
+        <form
+          class="flex flex-col items-start gap-8 self-stretch text-neutral-50"
+        >
+          <div class="relative flex flex-col self-stretch">
+            <input
+              class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent placeholder:text-neutral-500 border border-neutral-500 rounded py-4 px-3 outline-none focus:border-twitter-blue text-neutral-50"
+              placeholder="Name"
+              type="text"
+              value="Kshitij Ingale"
+            />
+            <label
+              class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black w-[51.018px] text-center"
+              >Name</label
+            >
+            <img
+              src="../../public/images/create-account-2-signup-mdi-tick-circle.svg"
+              alt="tick-circle-icon"
+              class="h-6 w-6 absolute right-3 bottom-4"
+            />
+          </div>
+          <div class="relative flex flex-col self-stretch">
+            <input
+              class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent placeholder:text-neutral-500 border border-neutral-500 rounded py-4 px-3 outline-none focus:border-twitter-blue text-neutral-50"
+              placeholder="Email"
+              type="email"
+              value="test@email.com"
+            />
+            <label
+              class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black w-[51.018px] text-center"
+              >Email</label
+            >
+            <img
+              src="../../public/images/create-account-2-signup-mdi-tick-circle.svg"
+              alt="tick-circle-icon"
+              class="h-6 w-6 absolute right-3 bottom-4"
+            />
+          </div>
+          <div class="relative flex flex-col self-stretch">
+            <input
+              class="flex items-center self-stretch gap-[10px] text-xl peer bg-transparent placeholder:text-neutral-500 border border-neutral-500 rounded py-4 px-3 outline-none focus:border-twitter-blue text-neutral-50"
+              placeholder="Email"
+              type="email"
+              value="10 September 2000"
+            />
+            <label
+              class="text-neutral-500 peer-focus:text-twitter-blue text-xs absolute top-[-7px] left-3 px-1 bg-black text-center"
+              >Date of birth</label
+            >
+            <img
+              src="../../public/images/create-account-2-signup-mdi-tick-circle.svg"
+              alt="tick-circle-icon"
+              class="h-6 w-6 absolute right-3 bottom-4"
+            />
+          </div>
+        </form>
+        <a
+          href="./create-account-step-3.html"
+          class="p-5 bg-twitter-blue text-center font-bold leading-normal rounded-full absolute bottom-5 right-5 left-5"
+        >
+          Sign up
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
